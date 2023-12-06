@@ -121,7 +121,7 @@ export default function MyStepper() {
         School Bill Calculator
       </Typography>
       <Grid container margin={"10px 0px 0px 0px"}>
-        <Grid item xs={10} margin={"auto"} padding={"0px 0px 20px 0px"}>
+        <Grid item xs={10} md={5} margin={"auto"} padding={"0px 0px 20px 0px"}>
           <FormControl fullWidth>
             <InputLabel id="demo-simple-select-label">Level</InputLabel>
             <Select
@@ -141,7 +141,7 @@ export default function MyStepper() {
           </FormControl>
         </Grid>
 
-        <Grid item xs={10} margin={"auto"} padding={"0px 0px 20px 0px"}>
+        <Grid item xs={10} md={5} margin={"auto"} padding={"0px 0px 20px 0px"}>
           <FormControl fullWidth>
             <InputLabel id="food">Feeding</InputLabel>
             <Select labelId="food" value={feeding} label="Feeding" onChange={handleFeedingChange}>
@@ -152,7 +152,7 @@ export default function MyStepper() {
           </FormControl>
         </Grid>
 
-        <Grid item xs={10} margin={"auto"} padding={"0px 0px 20px 0px"}>
+        <Grid item xs={10} md={5} margin={"auto"} padding={"0px 0px 20px 0px"}>
           <FormControl fullWidth>
             <InputLabel id="boarding">Boarding</InputLabel>
             <Select
@@ -165,7 +165,7 @@ export default function MyStepper() {
             </Select>
           </FormControl>
         </Grid>
-        <Grid item xs={10} margin={"auto"} padding={"0px 0px 20px 0px"}>
+        <Grid item xs={10} md={5} margin={"auto"} padding={"0px 0px 20px 0px"}>
           <FormControl fullWidth>
             <InputLabel id="transportation">Transportation</InputLabel>
             <Select
