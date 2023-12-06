@@ -116,7 +116,10 @@ export default function MyStepper() {
   }, [classFees, feedingMoney, boarding, transportationFees]);
 
   return (
-    <Box sx={{ marginTop: 10 }}>
+    <Box sx={{ marginTop: 5 }}>
+      <Typography fontWeight={"bold"} fontSize={24} marginBottom={3}>
+        School Bill Calculator
+      </Typography>
       <Grid container margin={"10px 0px 0px 0px"}>
         <Grid item xs={10} margin={"auto"} padding={"0px 0px 20px 0px"}>
           <FormControl fullWidth>
@@ -226,10 +229,10 @@ export default function MyStepper() {
                 <Typography>{transportationFees}</Typography>
               </Grid>
               <Grid item xs={6} margin={"auto"} sx={{ backgroundColor: "primary.main" }}>
-                <Typography>Total</Typography>
+                <Typography sx={{ margin: 2 }}>Total</Typography>
               </Grid>
               <Grid item xs={6} margin={"auto"}>
-                <Typography sx={{ color: "secondary.main" }}>Ghc{sum}</Typography>
+                <Typography sx={{ color: "secondary.main", margin: 2 }}>Ghc{sum}</Typography>
               </Grid>
             </Grid>
           </Paper>
